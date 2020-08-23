@@ -1,0 +1,23 @@
+{
+  "name": "FBtask2",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "clean": "rimraf dist",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
+    "build": "npm run usemin"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha1",
+    "grunt": "^1.3.0",
+    "htmlmin": "0.0.7",
+    "node.js": "0.0.1-security",
+    "popper.js": "^1.16.0",
+    "usemin-cli": "^0.5.1"
+  },
+  "devDependencies": {
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.2",
+    "rimraf": "^2.6.2"
+  }
+}
