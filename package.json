@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
-    "clean": "rimraf dist",
-    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
+    "clean": "rimraf docs",
+    "usemin": "usemin index.html -d docs --htmlmin -o docs/index.html",
     "build": "npm run usemin"
   },
   "dependencies": {
